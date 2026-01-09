@@ -20,7 +20,7 @@ public class ProductDaoImpl implements ProductDao {
     @Override
     public Optional<Product> findByCode(String code) throws SQLException {
         String sql = """
-                SELETE *
+                SELECT *
                 FROM products
                 WHERE code = ?
                 """;

@@ -25,7 +25,7 @@ public class DatabaseConfig {
             }
 
             // Step 2. define connection URL
-            String url = "jdbc:postgresql://localhost:5432/postgres";
+            String url = "jdbc:postgresql://localhost:5432/db_jdbc";
             Properties info = new Properties();
             info.put("user", "postgres");
             info.put("password", "qwer");
